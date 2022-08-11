@@ -1,0 +1,33 @@
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.nav-link {
+    color: #000000;
+    transition: 0.02s ease-in;
+
+    &.active {
+        color: #606060; 
+    }
+    &:hover {
+        position: relative;
+        top: -1px;
+        color: #606060;
+    }
+
+    &:active {
+        position: relative;
+        top: 1px;
+        color: #606060;
+        
+    }
+}
+
+.nav-button {
+    display: none;
+}

@@ -1,0 +1,36 @@
+.header {
+    background-color: #F1F1F1;
+    padding-top: 46px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    margin-bottom: 76px;
+}
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-content {
+    max-width: 500px;
+    margin-top: 124px;
+
+    & p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 200%;
+    }
+}
+
+.header-title {
+    margin-bottom: 20px;
+
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+}

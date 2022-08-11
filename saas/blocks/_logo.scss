@@ -1,0 +1,22 @@
+.logo {
+    position: relative;
+    padding: 0 12px 3px 0;
+    
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    color: black;
+
+    &::after{
+        content: "";
+        background: #FDA300;
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
